@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM debian:latest
 
 RUN apt update
 RUN apt -yq install rsync openssh-client
